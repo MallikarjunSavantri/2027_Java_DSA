@@ -2,9 +2,9 @@ package Arrays;
 
 import java.util.Scanner;
 
-class ArraysIO {
+public class ArraysIO {
 
-    static int[] input() {
+    public static int[] input() {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter size: ");
@@ -17,7 +17,7 @@ class ArraysIO {
         return arr;
     }
 
-    static void display(int[] arr) {
+    public static void display(int[] arr) {
         for (int x : arr) {
             System.out.print(x + " ");
         }

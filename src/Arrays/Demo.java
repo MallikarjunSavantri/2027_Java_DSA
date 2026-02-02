@@ -9,7 +9,6 @@ public class Demo {
         System.out.println(arr1.getClass().getName());
         System.out.println(arr);
 
-
         int[] arr2 = new int[10];
         arr2[0]=1;
         arr2[1]=2;

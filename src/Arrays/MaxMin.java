@@ -18,5 +18,4 @@ public class MaxMin {
         System.out.println("Minimum: " + min);
     }
 
-    
 }

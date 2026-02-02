@@ -3,8 +3,6 @@ package FlowControl.Iterables;
 import java.util.Scanner;
 
 public class AmstrongNum {
-
-
     public static int countDigit(int n) {
         int count = 0;
         while (n > 0) {
@@ -13,7 +11,6 @@ public class AmstrongNum {
         }
         return count;
     }
-
     public static boolean isArmstrong(int n) {
         int digits = countDigit(n);
         int current = n;
@@ -26,7 +23,6 @@ public class AmstrongNum {
         }
         return sum == n;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -41,3 +37,5 @@ public class AmstrongNum {
         sc.close();
     }
 }
+//a number that equals the sum of its own digits, each raised to the power of the total number of digits. 
+//For example, 153 is a 3-digit Armstrong number because \(1^{3}+5^{3}+3^{3}=1+125+27=153\). Other examples 370, 371, 407, 1634. 

@@ -22,7 +22,6 @@ public class LeftRotateByK {
             j++;
         }
     }
-    
     public static void main(String[] args) {
         int[] arr=ArraysIO.input();
         rotateByK(arr, 12);

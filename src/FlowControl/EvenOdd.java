@@ -14,6 +14,5 @@ public class EvenOdd {
             System.out.println("Odd");
 
         sc.close();
-    }
-    
+    }   
 }

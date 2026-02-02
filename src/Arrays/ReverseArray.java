@@ -14,9 +14,6 @@ public class ReverseArray {
             start++;
             end--;
         }
-
-        ArraysIO.display(arr);
-        
+        ArraysIO.display(arr);   
     }
-    
 }

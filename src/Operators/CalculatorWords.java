@@ -8,10 +8,8 @@ public class CalculatorWords {
 
         System.out.print("Enter first number: ");
         double a = sc.nextDouble();
-
         System.out.print("Enter second number: ");
         double b = sc.nextDouble();
-
         System.out.print("Enter operator (add(+), sub(-), multiply(*), divide(/)): ");
         char operator = sc.next().charAt(0);
 
@@ -19,22 +17,18 @@ public class CalculatorWords {
             case '+':
                 System.out.println("Result: "+(a + b));
                 break;
-
             case '-':
                 System.out.println("Result: "+(a - b));
                 break;
-
             case '*':
                 System.out.println("Result: "+(a * b));
                 break;
-
             case '/':
                 if (b == 0)
-                    System.out.println("Error: Division by zero");
+                    System.out.println("Cannot divide by zero");
                 else
                     System.out.println("Result: "+(a / b));
                 break;
-
             default:
                 System.out.println("Invalid operator");
         }
